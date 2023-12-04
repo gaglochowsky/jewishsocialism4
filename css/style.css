@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-color: black;
+}
+
+#home-screen{
+
+    width: 85vw;
+    height: 390vh;
+    background-color: hsl(0, 100%, 50%);
+    margin-left: auto;
+    
+    
+}
+
+#welcome-text{
+    padding-top: 10%;
+    font-size: 50px;
+    font-weight: 900;
+
+}
+
+/* #change-bg-color{
+    color: brown;
+    margin-top: 3%;
+} */
+
+
+.gear{
+    position: absolute;
+    margin-top: 2.5%;
+    margin-left: -8%;
+}
+
+.gear2{
+    position: absolute;
+    margin-top: 58%;
+    margin-left: -13%;
+    width: 50%;
+}
+
+.gear3{
+    position: absolute;
+    margin-top: 143%;
+    margin-left: -16%;
+    width: 60%;
+}
+
+#poem1{
+    position:absolute;
+    margin-top: 75%;
+    margin-left: 34%;
+    font-size:xx-large;
+    font-family: 'Nova Square', sans-serif;
+
+}
+
+#poem2{
+    position:absolute;
+    margin-top: 163%;
+    margin-left: 40%;
+    font-size:xx-large;
+    font-family: 'Nova Square', sans-serif;
+}
+
+
+.main-img{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 57%;
+    /* margin-top: 10%; */
+    margin-bottom: -15%;
+    width: 40%;
+}
+
+#button1{
+    margin-top: 65%;
+    margin-left: 4%;
+    width: 20%;
+    background-color: black; 
+  border: round;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-family: 'Nova Square', sans-serif;
+}
+
+#b2{
+    margin-top: 95%;
+    margin-left: 6%;
+    margin-right: 6%;
+    width: 20%;
+    background-color: black; 
+  border: round;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-family: 'Nova Square', sans-serif;
+}
+
+#stop1{
+    font-family: 'Nova Square', sans-serif;
+    margin-top: -15%;
+    margin-left: 50%;
+    font-size: 48px;
+}
+
+#free{
+    font-family: 'Nova Square', sans-serif;
+    margin-top: 13.5%;
+    margin-left: 6%;
+    font-size: 70px
+}
+
+#free2{
+    font-family: 'Nova Square', sans-serif;
+    margin-top: 70%;
+    margin-left: 10%;
+    font-size: 40px;
+}
+/* #secret-text{
+    position: absolute;
+    top: 80%;
+    right: 25%;
+} 
+
+@keyframes scaleImg{
+    0%{width: 15%;}
+    50%{width: 30%;}
+    100%{width: 15%;}
+}
+
+.animate-img{
+    animation: scaleImg 5s;
+}
+
+#body{
+    background-color: red;
+    
+}
